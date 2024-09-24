@@ -2,6 +2,13 @@ import { Injectable } from '@angular/core';
 import { jsPDF } from 'jspdf';
 import * as pdfjsLib from 'pdfjs-dist'; 
 
+/**
+ * PdfService é responsável por fornecer funcionalidades relacionadas ao processamento de arquivos PDF.
+ * Ele inclui uma função para extrair o texto de arquivos PDF e outra para gerar PDFs com o conteúdo processado.
+ * A extração de texto é útil para adaptar atividades com base no conteúdo do PDF fornecido.
+ * O serviço utiliza as bibliotecas `jspdf` e `pdfjs-dist` para realizar essas operações.
+ */
+
 @Injectable({
   providedIn: 'root'
 })

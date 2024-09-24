@@ -17,9 +17,10 @@
           
         <div class="pdf-area">
             <label for="pdfInput" class="custom-file-upload">
-                <i class="fa-solid fa-upload"></i>Enviar PDF
+                Enviar PDF
             </label>
-            <input #pdfInput id="pdfInput" type="file" accept="application/pdf" style="display: none;">
+            <input #pdfInput id="pdfInput" type="file" accept="application/pdf" (change)="showFileName($event)">
+            <span id="file-name" class="file-name"></span>
         </div>
     </div>
 

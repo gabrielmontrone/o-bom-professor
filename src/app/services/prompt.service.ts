@@ -1,5 +1,12 @@
 import { Injectable } from "@angular/core";
 
+/**
+ * PromptService é responsável por gerenciar os prompts utilizados para gerar sugestões e adaptações de atividades.
+ * Ele contém métodos para criar e formatar prompts com base em entradas específicas, como o texto extraído de um PDF e as descrições dos alunos.
+ * Este serviço desempenha um papel crucial na personalização das interações com a IA, garantindo que os prompts sejam claros e direcionados às necessidades do usuário.
+ */
+
+
 @Injectable({
     providedIn:'root'
 })

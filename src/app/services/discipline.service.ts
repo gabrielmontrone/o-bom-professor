@@ -1,5 +1,12 @@
 import { Injectable } from "@angular/core";
 
+/**
+ * DisciplineService é responsável por gerenciar as disciplinas disponíveis no sistema e permitir a seleção de uma disciplina.
+ * Ele escuta eventos de interação do usuário com a interface, garantindo que a disciplina correta seja associada à atividade.
+ * O serviço também se integra com outras partes do sistema para adaptar o conteúdo de acordo com a disciplina escolhida.
+ */
+
+
 @Injectable ({
     providedIn: 'root'
 })

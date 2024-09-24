@@ -2,6 +2,9 @@
     display: flex;
     flex-direction: column;
 
+    height: 100%;
+    width: 100%;
+
     gap: 50px;
 }
 
@@ -59,7 +62,51 @@
 
 }
 
-/* Estilo adicional para quando a disciplina for selecionada */
+.pdf-area {
+    position: relative;
+    display: inline-block;
+}
+
+.custom-file-upload {
+    width: 183px;
+    height: 32px;
+    flex-shrink: 0;
+
+    border-radius: 100px;
+    background: #58360E;
+    
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    cursor: pointer;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-file-upload:hover {
+    background-color: #fff;
+    color: #58360E;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.file-name {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: Inter;
+    color: #555;
+}
+
+
 .selected {
     background: #C27E2E;
 }
@@ -70,6 +117,7 @@
 
 .textarea {
     width: 860px;
+    height: 100%;
     flex-shrink: 0;
 
     border-radius: 10px;
@@ -91,7 +139,12 @@
 }
 
 .height-large {
-    height: 500px;
+    height: 90%;
+    max-height: 450px;
+}
+
+.answer-area {
+    height: 100%;
 }
 
 #generateButton {

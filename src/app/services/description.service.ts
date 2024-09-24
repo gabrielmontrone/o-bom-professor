@@ -1,5 +1,12 @@
 import { Injectable } from "@angular/core";
 
+/**
+ * DescriptionService é responsável por gerenciar as descrições de alunos no sistema.
+ * Ele contém funcionalidades para fornecer uma descrição aleatória do aluno, usada como um exemplo para adaptação de atividades.
+ * Esse serviço facilita a escolha de descrições apropriadas com base nas dificuldades dos alunos, promovendo a inclusão pedagógica.
+ */
+
+
 @Injectable ({
     providedIn: 'root'
 })

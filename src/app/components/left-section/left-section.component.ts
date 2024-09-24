@@ -56,4 +56,20 @@ export class LeftSectionComponent implements OnInit {
       });
     }
   }
+
+  showFileName(event: Event): void {
+    const input = event.target as HTMLInputElement;
+    const fileNameElement = document.getElementById('file-name');
+    
+    if (input.files && input.files.length > 0) {
+        const fileName = input.files[0].name;
+        if (fileNameElement) {
+            fileNameElement.textContent = `Arquivo selecionado: ${fileName}`;
+        }
+    } else {
+        if (fileNameElement) {
+            fileNameElement.textContent = ''; // Limpa o texto se nenhum arquivo for selecionado
+        }
+    }
+  }
 }

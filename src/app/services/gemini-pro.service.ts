@@ -4,6 +4,13 @@ import { PromptService } from './prompt.service';
 import { DisciplineService } from './discipline.service'; 
 import { ApiService } from './api.service'; 
 
+/**
+ * GeminiProService é responsável por interagir com o modelo de IA do Google (Gemini) para gerar sugestões de adaptação.
+ * O serviço faz requisições para a API de IA, passando o texto extraído do PDF e uma descrição do aluno, e então retorna um texto adaptado,
+ * que pode ser usado pelos professores para ajustar suas atividades pedagógicas às necessidades específicas dos alunos.
+ */
+
+
 @Injectable({
   providedIn: 'root'
 })
