@@ -1,0 +1,53 @@
+.main-section {
+    width: 100%;
+    height: 100%;
+}
+
+.topics {
+    margin-bottom: 15px;
+}
+
+.topics-text {
+    width: 367px;
+}
+
+p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 200;
+
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    font-family: Inter;
+    color: #FFF;
+    font-weight: 400;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #58360E;
+}
+
+.icons {
+    color: #58360E;
+}
+
+.icons:hover {
+    color: #FFF;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+}
+
+i {
+    font-size: 40px;
+    margin-right: 15px;
+}

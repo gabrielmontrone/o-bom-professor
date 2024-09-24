@@ -1,0 +1,41 @@
+<section class="main-section">
+    <div class="title-subtitle">
+        <h1>O BOM PROFESSOR</h1>
+        <h5>"A inclusão não é apenas uma palavra, mas um compromisso de reconhecer, respeitar e valorizar a singularidade de 
+            <br>cada indivíduo."</h5>
+    </div>
+
+    <div class="step">
+        <h3>PRIMEIRO PASSO</h3>
+        <h6>Selecione o segmento e insira sua atividade.</h6>
+
+        <div class="types-discipline">
+            <div class="exact discipline"><p>Exatas</p></div>
+            <div class="humanities discipline"><p>Humanas</p></div>
+            <div class="biological discipline"><p>Biológicas</p></div>
+        </div>
+          
+        <div class="pdf-area">
+            <label for="pdfInput" class="custom-file-upload">
+                <i class="fa-solid fa-upload"></i>Enviar PDF
+            </label>
+            <input #pdfInput id="pdfInput" type="file" accept="application/pdf" style="display: none;">
+        </div>
+    </div>
+
+    <div class="step">
+        <h3>SEGUNDO PASSO</h3>
+        <h6>Descreva o aluno, contando suas dificuldades e como gostaria que a atividade fosse adaptada.</h6>
+        
+        <textarea #descriptionInput placeholder="{{ randomDescription }}" class="textarea height-small" id="descriptionInput"></textarea>
+
+        <button #generateButton id="generateButton">
+            <h3>INCLUIR</h3>
+        </button>
+    </div>
+
+    <div class="answer-area">
+        <h3>NOSSA SUGESTÃO</h3>
+        <div id="responseOutput" class="textarea height-large"></div>
+    </div>
+</section>

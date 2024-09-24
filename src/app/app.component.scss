@@ -1,0 +1,26 @@
+.main-section {
+    width: 100%;
+    height: 1242px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.left-section {
+    width: 65%;
+    height: 100%;
+
+    padding-left: 120px;
+    padding-top: 80px;
+
+    background: #FFEEDB;
+}
+
+.right-section {
+    width: 35%;
+    height: 100%;
+    background: #C27E2E;
+
+    padding-left: 20px;
+    padding-top: 80px;
+}

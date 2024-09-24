@@ -1,0 +1,123 @@
+.main-section {
+    display: flex;
+    flex-direction: column;
+
+    gap: 50px;
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.custom-file-upload {
+    color: #58360E;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    width: 10%;
+
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.custom-file-upload:hover {
+    cursor: pointer;
+}
+
+.types-discipline {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.discipline {
+    width: 100px;
+    height: 24px;
+    flex-shrink: 0;
+
+    border-radius: 100px;
+    background: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discipline:hover {
+    background: #C27E2E;
+    cursor: pointer;
+
+    p {
+        color: #E1E1E1;
+    }
+
+}
+
+/* Estilo adicional para quando a disciplina for selecionada */
+.selected {
+    background: #C27E2E;
+}
+
+.selected p {
+    color: #E1E1E1;
+}
+
+.textarea {
+    width: 860px;
+    flex-shrink: 0;
+
+    border-radius: 10px;
+    background: #D9D9D9;
+
+    overflow-y: auto;
+    padding: 10px;
+    resize: none;
+}
+
+/* Estilo para o placeholder */
+.textarea::placeholder {
+    color: #312828; 
+    opacity: 0.7; 
+}
+
+.height-small {
+    height: 176px;
+}
+
+.height-large {
+    height: 500px;
+}
+
+#generateButton {
+    width: 183px;
+    height: 32px;
+    flex-shrink: 0;
+
+    border-radius: 100px;
+    background: #58360E;
+
+    h3 {
+        color: #FFF;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
+
+#generateButton:hover {
+    cursor: pointer;
+    background: #fff;
+
+    h3 {
+        color: #58360E;
+    }
+}
+
