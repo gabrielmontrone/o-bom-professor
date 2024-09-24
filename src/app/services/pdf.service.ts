@@ -80,6 +80,6 @@ export class PdfService {
       yPosition += lineHeight;
     }
 
-    doc.save('Resposta-Adaptada.pdf');
+    doc.save('Atividade-Adaptada.pdf');
   }
 }
